@@ -1,6 +1,4 @@
-def normalize_salary(value: float):
-    return int(value) if value.is_integer() else value
-
+from utils import normalize_salary
 
 def total_salary(path):
     total = 0
